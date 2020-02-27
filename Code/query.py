@@ -37,7 +37,6 @@ base = os.path.splitext(args.database)[0]
 
 def feature_active(name):
     """ Check if feature 'name' is active
-    
     i.e. the feature has been selected via a command line option to be used for processing"""
     return (args.feature == name or args.feature == 'all')
 

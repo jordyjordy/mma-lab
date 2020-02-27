@@ -18,7 +18,7 @@ print "============\n"
 
 # retrieve image list
 
-types = ('*.jpg', '*.JPG', '*.png')
+types = ('*.jpeg', '*.JPG', '*.png')
 image_list = []
 for type_ in types:
     print type_, ' ', image_list
