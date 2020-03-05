@@ -16,7 +16,8 @@ args = parser.parse_args()
 
 # Read the wavfile
 fs,data = wavfile.read(args.wav_path)
-
+data = data[:,0]
+print data.shape
 print 'Processing wavfile: ' + args.wav_path + ' ... '
 
 print 'Calculating MFCCs ... '
