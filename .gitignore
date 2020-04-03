@@ -9,3 +9,6 @@ Databases/*
 venv/*
 Videos/*
 .idea/*
+db/*
+training_set/*
+Code/db/*
